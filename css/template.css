@@ -1,10 +1,18 @@
+/*changer la police Signika Negative pour autre chose */
+h1, p
+{
+    font-family: 'Signika Negative', sans-serif;
+}
+
 /***NAVBAR***/
 .navbar-default
 {
     background-color:#333333;
-    border-color: transparent;
+    border-color: #E44D26;
+    height: 85px;
 }
 
+/*changer la police Signika Negative pour autre chose */
 .navbar-nav
 {
     font-family: 'Signika Negative', sans-serif;
@@ -18,10 +26,16 @@
 
 .navbar-default .navbar-nav li a:hover
 {
-    color:#16a085;
+    color:#E44D26;
 }
 
 .logo img
 {
     margin:15px 0 0 100px;
+}
+
+.navbar-right img{
+  margin:-200px 0 0 -15px;
+  height: 24px;
+  width: 24px;
 }
