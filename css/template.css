@@ -1,43 +1,27 @@
-.margededebut{
-
-  margin-top: 50px;
+/***NAVBAR***/
+.navbar-default
+{
+    background-color:#333333;
+    border-color: transparent;
 }
 
-
-
-.margedefin{
-
-  margin-bottom: 150px;
+.navbar-nav
+{
+    font-family: 'Signika Negative', sans-serif;
+    margin: 35px 100px 10px;
 }
 
-/*les couleurs*/
-.colorlightblue{
-
-  background-color: #9CD8E8;
+.navbar-default .navbar-nav li a
+{
+    color:#fff;
 }
 
-.colordarkblue{
-
-  background-color: #9cb2e8;
+.navbar-default .navbar-nav li a:hover
+{
+    color:#16a085;
 }
 
-.colorlightgreen{
-
-  background-color: #b1edb8;
-}
-
-.colorlightyellow{
-
-  background-color: #d8e89c;
-}
-
-.colorlightgrey{
-
-  background-color: #CCCDD2;
-}
-
-
-.colorlightred{
-
-  background-color: #eeb9b9;
+.logo img
+{
+    margin:15px 0 0 100px;
 }

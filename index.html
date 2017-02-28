@@ -13,21 +13,47 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
 <body>
-<div class="nav">
-  <ul>
-    <li><img src="./images/logo.png" alt=""></li>
-  </ul>
-  <ul>
-    <li>Home</li>
-    <li>How it works ?</li>
-    <li>Contact us</li>
-  </ul>
-  <ul>
-    <li><img src="./images/twitter_cloud.png" alt=""></li>
-    <li><img src="./images/github.png" alt=""></li>
-    <li><img src="./images/youtube.png" alt=""></li>
-  </ul>
-</div>
+
+  <!-- barre de navigation -->
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <!-- pour mettre trois traits sur notre navbar-toggle on met 3*icon-bar dans un span -->
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+            <div class="logo">
+                <img src="./images/logo.png">
+            </div>
+            </a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">How it works ?</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><img src="./images/twitter_cloud.png" alt=""></a></li>
+                <li><a href="#"><img src="./images/github.png" alt=""></a></li>
+                <li><a href="#"><img src="./images/youtube.png" alt=""></a></li>
+            </ul>
+        </div>
+
+    </div>
+  </div>
+  <!-- la Fin de notre barre de navigation -->
+
+
 
 
 <!-- les scripts, toujours tout a la fin du body :  jQuery (necessary for Bootstrap's JavaScript plugins) -->
