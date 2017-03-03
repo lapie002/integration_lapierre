@@ -40,8 +40,8 @@ h1, h3, p
 
 .navbar-right img{
   margin:-200px 0 0 -15px;
-  height: 24px;
-  width: 24px;
+  height: 38px;
+  width: 38px;
 }
 
 /* Header */
@@ -105,4 +105,58 @@ h1, h3, p
 
 .white{
   background-color: white;
+}
+
+
+/***OUR GOAL***/
+#goal {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+#goal h1{
+  color: #E44D26;
+}
+
+#works{
+  width: 115px;
+  height: 45px;
+  background-color: #E44D26;
+  border: 1px solid #E44D26;
+  border-radius: 12px;
+  padding: 10px 10px;
+  margin: 25px;
+  box-shadow: 10px 10px 5px #888888;
+
+}
+
+#goal a{
+  color: white;
+  text-decoration:none !important;
+}
+
+
+/***ABOUT***/
+#about {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  color: black;
+}
+
+#about h1{
+  color: #E44D26;
+}
+
+
+/***footer***/
+footer{
+  background-color: #EEEEEE;
+  height: 200px;
+}
+
+#footsection{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: black;
+
 }

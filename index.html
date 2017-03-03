@@ -103,6 +103,60 @@
 </section>
 <!-- La Fin de la section CREATE A GAME -->
 
+<!-- OUR GOAL -->
+<section id="goal">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+              <img src="./images/tech.jpg" alt="">
+            </div>
+            <div class="col-md-8 gauche">
+                <h1>Think about this</h1>
+                <p>The purpose is clear, we create your project from A to Z :</p>
+                <ul>
+                  <li>Project Management</li>
+                  <li>Technical design</li>
+                  <li>Graphic Design</li>
+                  <li>Server management</li>
+                  <li>Distribution on different platforms</li>
+                </ul>
+                <div id="works"><a href="#"><span>How it works ?</span></a></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- La Fin de la section OUR GOAL -->
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <h1>About</h1>
+              <p>Notice though that the distortion is being applied to the entiere image. One way to do so only on certain areas is to use another texture as a map, and paint areas brighter or darker proportionally to how strong or weak we want the distortion to be.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- La Fin de la section about -->
+
+<!-- FOOTER -->
+<footer>
+  <section>
+      <div class="container">
+          <div class="row" id="footsection">
+              <div class="col-md-6">
+                <p>Notice though that the distortion is being applied to the entiere image. One way to do so only on certain areas is to use another texture as a map, and paint areas brighter or darker proportionally to how strong or weak we want the distortion to be.</p>
+              </div>
+              <div class="col-md-6">
+                <p>Notice though that the distortion is being applied to the entiere image. One way to do so only on certain areas is to use another texture as a map, and paint areas brighter or darker proportionally to how strong or weak we want the distortion to be.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+</footer>
+<!-- Fin DU FOOTER -->
+
 
 <!-- les scripts, toujours tout a la fin du body :  jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -110,6 +164,29 @@
 <script src="js/bootstrap.min.js"></script>
 
 <script src="./js/bootstrap.js"></script>
-<!-- -->
+
+<!-- pour que la navbar disparaisse apres un scroll de 500px vers le bas -->
+<script>
+    (function($){
+        $(document).ready(function(){
+
+            $(".navbar").show();
+
+            $(function(){
+
+                 $(window).scroll(function(){
+                     if($(this).scrollTop() > 500)
+                     {
+                         $('.navbar').fadeOut();
+                     }
+                     else
+                     {
+                         $('.navbar').fadeIn();
+                     }
+                 });
+            });
+        });
+    }(jQuery));
+</script>
 </body>
 </html>
