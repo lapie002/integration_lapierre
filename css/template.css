@@ -1,5 +1,5 @@
 /*changer la police Signika Negative pour autre chose */
-h1, p
+h1, h3, p
 {
     font-family: 'Signika Negative', sans-serif;
 }
@@ -7,7 +7,7 @@ h1, p
 /***NAVBAR***/
 .navbar-default
 {
-    background-color:#333; opacity: 1; filter: alpha(opacity=50);
+    background-color:#333; opacity: 0.85; filter: alpha(opacity=50);
     border-color: #E44D26;
     height: 65px;
 }
@@ -42,4 +42,67 @@ h1, p
   margin:-200px 0 0 -15px;
   height: 24px;
   width: 24px;
+}
+
+/* Header */
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 570px;
+    /*background-image: url("../images/background.jpg")*/
+    background: url(../images/background.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#top h1 {
+  /*background-image: url("../images/background.jpg");*/
+  font-family: 'Signika Negative', sans-serif;
+  color:black;
+  margin-top: 150px;
+  margin-left: 150px;
+}
+#top h3 {
+  /*background-image: url("../images/background.jpg");*/
+  font-family: 'Signika Negative', sans-serif;
+  color:#000;
+  margin-left: 150px;
+}
+
+
+/***THINK***/
+#think {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.gauche{
+  padding-left: 100px;
+}
+
+#think h1{
+  color: #E44D26;
+}
+
+/***CREATE A GAME***/
+#game{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.create{
+  width: 100%;
+  height: 450px;
+  background-color: #EEEEEE;
+  padding: 50px 0 75px 100px;
+}
+
+.grey{
+  background-color: grey;
+}
+
+.white{
+  background-color: white;
 }
